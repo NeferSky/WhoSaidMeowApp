@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    android:rowCount="3"
+    tools:context="nefersky.whosaidmeowapp.MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnCat"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cat100"/>
+
+    <ImageButton
+        android:id="@+id/btnDog"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageButton
+        android:id="@+id/btnChicken"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/chicken"/>
+
+    <ImageButton
+        android:id="@+id/btnCow"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cow"/>
+
+    <ImageButton
+        android:id="@+id/btnSheep"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/sheep"/>
+
+    <ImageButton
+        android:id="@+id/btnDuck"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/duck"/>
+</GridLayout>
